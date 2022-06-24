@@ -1,0 +1,175 @@
+body {
+  background: rgb(24, 23, 23);
+  color: rgb(179, 179, 179);
+  font-size: 16px; /* font-шрифт a
+  font-weight: normal; /* толщина */
+  font-family: Arial, Helvetica, sans-serif;
+}
+a/*просто изменение сылок(стиля цвета и тп */ {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+a:hover/* hover- когда наводишь */ {
+  text-decoration: underline; /* подчеркивание */
+}
+a:active/* когда кнопка активна */ {
+  color: blue;
+}
+
+.foto {
+  border-radius: 26px;
+  box-shadow: 4px 4px 14px white;
+}
+.info {
+  margin: 20px;
+  display: flex;
+}
+@media (max-width: 700px) {
+  .info {
+    text-align: center;
+    display: block;
+  }
+}
+
+.info p {
+  color: rgb(179, 179, 179);
+  margin: 0;
+  font-style: italic; /* stylr-наклон и тд  */
+  text-decoration: none;
+}
+.container {
+  max-width: 700px;
+  margin: auto; /* расположение */
+  padding-top: 30px;
+}
+.container h1,
+h2,
+h3,
+h4 {
+  color: rgb(211, 207, 207);
+}
+.bg-blue {
+  background-color: rgba(21, 83, 119, 0.63);
+}
+.bg-green {
+  background-color: rgba(95, 187, 95, 0.37);
+}
+.bg-purpul {
+  background-color: rgba(71, 61, 139, 0.562);
+}
+.card {
+  border-radius: 20px; /* округление рамки */
+  margin-bottom: 20px; /* отступ снизу */
+  padding: 20px; /* отступ между елементами */
+}
+.card h2 {
+  margin-bottom: 20px;
+}
+.list {
+  padding: 0px 10px;
+  list-style: none; /* убирает номерование(либо точки и тд. */
+}
+.list li {
+  color: rgb(179, 179, 179);
+  margin-bottom: 10px;
+}
+.table {
+  width: 55%;
+}
+.table th {
+  padding-bottom: 10px;
+  padding-right: 10px;
+  color: antiquewhite;
+}
+.table td {
+  padding-left: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table td:nth-child(1)td:nth-child(2)td:nth-child(3)/* редактирование колонок таблички */ {
+  color: antiquewhite;
+}
+.link-list {
+  padding-left: 0;
+  list-style: none;
+}
+.link-list li {
+  margin: 5px;
+  padding: 3px;
+  border-bottom: 1px solid #ccc;
+}
+.contact h2 {
+  text-align: center;
+}
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: antiquewhite;
+}
+.form-group input,
+textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid antiquewhite;
+  background: transparent;
+  padding: 15px 0px 10px;
+  font-family: inherit;
+  color: aliceblue;
+}
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+.row > .form-group {
+  width: 50%;
+}
+.row > .form-group:first-child {
+  margin-right: 40px;
+}
+.info-2 {
+  margin-left: 30px;
+  padding-bottom: 30px;
+  width: 100%;
+  background-color: rgba(47, 79, 79, 0.692);
+  border-radius: 20px;
+  padding-left: 10px;
+}
+.info p {
+  margin-bottom: 5px;
+}
+.btn {
+  background-color: rgba(50, 29, 70, 0.459);
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  font-family: inherit;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 0.7;
+}
+.box-2 {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  width: 100px;
+  height: 74.5px;
+  /* background-color: coral; */
+}
+
+/* Позиция */
+.position {
+  border: 4px solid cornflowerblue;
+  margin-top: 40px;
+  padding: 20px;
+}
+.box {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  width: 100px;
+  height: 74.5px;
+  /* background-color: coral; */
+}
